@@ -1,38 +1,110 @@
-.App {
-  text-align: center;
+a{
+  text-decoration: none;
+}
+hr{
+  width: 180px;
+  background: #bcbcbc none repeat scroll 0 0;
+    height: 3px !important;
+}
+li{
+  list-style: none;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+/* ---------------------------------------------- */
+
+.slider-h1{
+  color: #414141;
+    font-size: 44px;
+    line-height: 28px;
+    margin: 0 0 15px;
+}
+.slider-text{
+  color: #919191;
+    letter-spacing: 1px;
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+.section-h2{
+  color: #494949;
+    text-transform: uppercase;
+    margin: 0 0 15px;
+}
+.slider-h3{
+  font-weight: 600;
+  margin: 0 0 15px;
+}
+.slider-p{
+    color: #767676;
+    font-size: 14px;
+    line-height: 30px;
+    font-weight: 400;
+    margin: 0 0 15px;
+}
+.about-me-p{
+  color: #767676;
+    font-size: 16px;
+    line-height: 28px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+
+                  /* project */
+
+                  
+.project-h3{
+  color: #5e5e5e;
+  font-weight: 500;
+  font-size: 26px;
+  text-transform: capitalize;
+}
+.project-p{
+    color: #9d9d9d;
+    font-size: 15px;
+    line-height: 28px;
+    font-weight: 400;
+    margin: 0 0 15px;
+}
+
+
+          /* contact */
+
+
+.contact-icon{
+    border-radius: 50%;
+    float: left;
+    font-size: 24px;
+    height: 30px;
+    line-height: 47px;
+    margin-right: 12px;
+    text-align: center;
+    width: 47px !important;
+    color: #919191;
+}
+.contact-h4{
+  color: #7b7b7b;
+  position: relative;
+    top: 5px;
+    font-weight: 400;
+}
+.contact-a{
+  color: #979797;
+}
+
+
+         /* footer */
+.footer-a{
+  padding: 10px;
+}
+
+
+@media only screen and (min-width: 320px) {
+  #img {
+      width: 300px;
   }
+  
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+@media only screen and (min-width: 900px) {
+  #img{
+    width: 600px;
   }
 }
