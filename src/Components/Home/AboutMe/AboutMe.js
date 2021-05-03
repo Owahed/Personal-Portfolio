@@ -31,7 +31,7 @@ const AboutMe = () => {
                         <h3 className='slider-h3'>Howdy!</h3>
                         <p className='about-me-p '>Full Stack Developers often begin their career as either a front or backend developer, and I have mastered skills in both.</p>
                         
-                        <a style={{backgroundColor:"#393939",color:"#fff",padding:"10px 20px",borderRadius:"5px"}} href={MyPDF} download="MY_RESUME.pdf"> DOWNLOAD MY RESUME</a>
+                        <a className='project-btn' href={MyPDF} download="MY_RESUME.pdf"> DOWNLOAD MY RESUME</a>
                     </div>
                     <div className="col-md-6 mt-3">
                     <SkillBar colors={colors} skills={skills}/>

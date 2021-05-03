@@ -64,6 +64,16 @@ li{
     font-weight: 400;
     margin: 0 0 15px;
 }
+.project-btn{
+  background-color: rgb(57, 57, 57);
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.project-btn:hover{
+  color: #FFF;
+  background-color: #000;
+}
 
 
           /* contact */

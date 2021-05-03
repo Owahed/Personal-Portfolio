@@ -2,6 +2,9 @@ import React from 'react';
 import './Services.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHeart,faCrosshairs } from '@fortawesome/free-solid-svg-icons'
+import LinkedInIcon from '@material-ui/icons/LinkedIn';
+import GitHubIcon from '@material-ui/icons/GitHub';
+import AddCircleIcon from '@material-ui/icons/AddCircle';
 
 const Services = () => {
     return (
@@ -9,16 +12,16 @@ const Services = () => {
             <h2>MY SERVICES</h2>
  
 <div class="about">
-   <a class="bg_links social portfolio" href="https://www.rafaelalucas.com" target="_blank">
-      <span class="icon"></span>
+   <a class="bg_links social portfolio" href="https://www.facebook.com/owahed.hossain.7" target="_blank">
+   <span class="material-icons md-36">facebook</span>
    </a>
-   <a class="bg_links social dribbble" href="https://dribbble.com/rafaelalucas" target="_blank">
-      <span class="icon"></span>
+   <a class="bg_links social dribbble" href="https://www.linkedin.com/in/owahed-hossain-877777210/" target="_blank">
+   <LinkedInIcon fontSize="large" />
    </a>
-   <a class="bg_links social linkedin" href="https://www.linkedin.com/in/rafaelalucas/" target="_blank">
-      <span class="icon"></span>
+   <a class="bg_links social linkedin" href="https://github.com/Owahed" target="_blank">
+   <GitHubIcon fontSize="large" />
    </a>
-   <a class="bg_links logo"></a>
+  <AddCircleIcon fontSize="large" />
 </div>
 {/* <!-- end about --> */}
    
