@@ -9,9 +9,9 @@ const Footer = () => {
             </div>
             <div className="col-sm-12 col-md-6 text-center">
                 <ul className="d-flex text-center">
-                    <li><a className="footer-a" href="#">FACEBOOK</a></li>
-                    <li><a className="footer-a" href="#">TWITTER</a></li>
-                    <li><a className="footer-a" href="#">LINKEDIN</a></li>
+                    <li><a className="footer-a" target="_blank" href="https://www.facebook.com/owahed.hossain.7">FACEBOOK</a></li>
+                    <li><a className="footer-a" target="_blank" href="https://www.linkedin.com/in/owahed-hossain-877777210/">LINKEDIN</a></li>
+                    <li><a className="footer-a" target="_blank" href="https://github.com/Owahed">GITHUB</a></li>
                     
                 </ul>
             </div>

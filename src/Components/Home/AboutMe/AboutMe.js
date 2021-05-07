@@ -29,7 +29,7 @@ const AboutMe = () => {
                 <div className="row">
                     <div className="col-md-6">
                         <h3 className='slider-h3'>Howdy!</h3>
-                        <p className='about-me-p '>Full Stack Developers often begin their career as either a front or backend developer, and I have mastered skills in both.</p>
+                        <p className='about-me-p my-4'>Full Stack Developers often begin their career as either a front or backend developer, and I have mastered skills in both.</p>
                         
                         <a className='project-btn' href={MyPDF} download="MY_RESUME.pdf"> DOWNLOAD MY RESUME</a>
                     </div>

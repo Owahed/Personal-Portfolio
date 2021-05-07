@@ -2,7 +2,6 @@ import React from 'react';
 
 
 const ProjectDetails = ({project}) => {
-    console.log(project)
     return (
         <div className='container mt-5 pt-5'>
             <div className="row">
@@ -17,8 +16,8 @@ const ProjectDetails = ({project}) => {
                     <br/>
                     <a href={project.github}>Github link</a>
                 </div>
-                <div className="col-md-4">
-                    <img height='300px' width='400px' src={project.img1} alt="" />
+                <div className="col-md-4 text-center">
+                    <img className="projectDetailsImg"  src={project.img1} alt="" />
                 </div>
 
                 

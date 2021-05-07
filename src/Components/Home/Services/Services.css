@@ -144,11 +144,26 @@ body {
     transition: all 0.3s ease;
   }
   
-  @media screen and (max-width: 767px) {
+  @media screen and (min-width: 767px) {
     .wrapper {
       height: 700px;
+      
     }
   }
+
+  
+@media only screen and (min-width: 320px) {
+  .services-container {
+    height: 1000px;
+  }
+  
+}
+@media only screen and (min-width: 767px) {
+  .services-container {
+    height: 500px;
+  }
+  
+}
   .content {
     max-width: 1024px;
     width: 100%;

@@ -8,8 +8,8 @@ import AddCircleIcon from '@material-ui/icons/AddCircle';
 
 const Services = () => {
     return (
-        <div className="bg-light text-center py-5">
-            <h2>MY SERVICES</h2>
+        <div  className="bg-light text-center services-container py-5">
+            <h2>MY SKILL</h2>
  
 <div class="about">
    <a class="bg_links social portfolio" href="https://www.facebook.com/owahed.hossain.7" target="_blank">
@@ -31,7 +31,7 @@ const Services = () => {
          
             <div class="icon"><FontAwesomeIcon size="2x" icon={faCrosshairs} /></div>
             <p class="title">WEB DESIGN</p>
-            <p class="text">Click to see or edit your profile page.</p>
+            <p class="text">Clear understanding of modern technologies and best design practices  </p>
          
       </div>
       {/* <!-- end card -->
@@ -40,7 +40,7 @@ const Services = () => {
          
             <div class="icon"><FontAwesomeIcon size="2x" icon={faHeart} /></div>
             <p class="title">DEVELOPMENT</p>
-            <p class="text">Check all your favourites in one place.</p>
+            <p class="text">I am a MERN developer.</p>
          
       </div>
       {/* <!-- end card -->
@@ -49,7 +49,7 @@ const Services = () => {
          
             <div class="icon"><span class="material-icons md-36">leaderboard</span></div>
             <p class="title">DATABASE</p>
-            <p class="text">Add or change your contacts and links.</p>
+            <p class="text">I can use mongoDB to handel Database</p>
          
       </div>
       {/* <!-- end card --> */}
