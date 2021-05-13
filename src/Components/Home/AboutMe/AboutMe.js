@@ -1,6 +1,6 @@
 import React from 'react';
 import SkillBar from 'react-skillbars';
-import MyPDF from '../../../Resume/Owahed-Hossain-Resume (Full).pdf';
+import MyPDF from '../../../Resume/Owahed-Hossain-Resume.pdf';
 
 const AboutMe = () => {
     const skills = [
