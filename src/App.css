@@ -9,6 +9,9 @@ hr{
 li{
   list-style: none;
 }
+*{
+  /* background-color: #fff; */
+}
 
 
 /* ---------------------------------------------- */
@@ -164,6 +167,18 @@ li{
   .projectDetailsImg{
     width: 400px;
     height: 300px;
+  }
+}
+/* ----------------blogs-------------------- */
+@media only screen and (min-width: 320px) {
+  .blogs {
+     display: inline-block;
+  }
+  
+}
+@media only screen and (min-width: 900px) {
+  .blogs{
+   display: flex;
   }
 }
 

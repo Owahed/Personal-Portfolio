@@ -7,6 +7,7 @@ import cook from '../../../Image/COOKING-MASTER.png'
 import football from '../../../Image/Football.png'
 import EmaJone from '../../../Image/Ema-jone (1).png'
 import eCommerce from '../../../Image/E-commerce.png'
+import FriendAdda from '../../../Image/FriendAdda (1).png'
 
 import './Projects.css'
 
@@ -38,6 +39,16 @@ const Project = () => {
                                 <div class="overlay">
                                     <h2>Ema John</h2>
                                     <a class="info text-center" target="_blank"  href=" https://roky-owahed.web.app/">Live link</a>
+                                </div>
+                            </div>
+                        
+                    </div>
+                    <div className="col-md-4  p-3 text-center">
+                            <div class="hovereffect">
+                                <img height="350px" width="350px" src={FriendAdda} alt="" />
+                                <div class="overlay">
+                                    <h2>Friend Adda (chatting site)</h2>
+                                    <a class="info text-center" target="_blank"  href=" https://discord-group-2c7c1.web.app/?fbclid=IwAR0ZPKbluZVBSIcVBc2yDE_g8_5rm26vwqVnB6mA42_NtHLEO3ENkB1yGOE">Live link</a>
                                 </div>
                             </div>
                         

@@ -5,6 +5,7 @@ import rider1 from '../../../Image/React-rider1.png'
 import book from '../../../Image/Book.png'
 import cook from '../../../Image/COOKING-MASTER.png'
 import EmaJohn from '../../../Image/Ema-jone (1).png'
+import FriendsAdda from '../../../Image/FriendAdda (1).png'
 import ProjectDetails from '../ProjectDetails/ProjectDetails';
 
 
@@ -30,6 +31,18 @@ const projects=[
         technology: 'Axios, Rest API, React.js, Node.js, Express.js, MongoDB, Firebase, Heroku, Material-UI, Bootstrap.',
         liveSite:'https://roky-owahed.web.app/',
         github:'https://github.com/Owahed/ema-john-client'
+
+
+    },
+    {
+        name:'Friends Adda',
+        id:'6',
+        img1:FriendsAdda,
+        
+        detail:'FriendsAdda is a real time chatting application.First this app gives you a 100% security.Real time chatting experience.Pixel perfect responsiveness.Lots of functionality that give you a better experience.Great design and color combination.',
+        technology: 'HTML CSS JavaScript React Redux Material UI Firebase',
+        liveSite:'https://discord-group-2c7c1.web.app/?fbclid=IwAR0ZPKbluZVBSIcVBc2yDE_g8_5rm26vwqVnB6mA42_NtHLEO3ENkB1yGOE',
+        github:'https://github.com/ahadhossainaiman/friendsAdda'
 
 
     },

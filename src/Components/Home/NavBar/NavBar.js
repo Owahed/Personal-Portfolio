@@ -10,7 +10,8 @@ const NavBar = () => {
 
 
 
-        <Navbar className="" bg="light" expand="lg">
+        <Navbar  bg="light" expand="lg">
+            <div className="container">
             <Navbar.Brand href="/"><img height='50px' src={icon} alt=""/></Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
@@ -26,6 +27,7 @@ const NavBar = () => {
                
                 
             </Navbar.Collapse>
+            </div>
         </Navbar>
     );
 };
